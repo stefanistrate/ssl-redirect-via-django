@@ -1,2 +1,3 @@
-# ssl-redirect-via-django
+# SSL redirect via Django
+
 Web app to redirect all HTTP requests to HTTPS.
