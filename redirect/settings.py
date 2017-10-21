@@ -27,6 +27,9 @@ MIDDLEWARE_CLASSES = (
 )
 
 SECURE_SSL_REDIRECT = True
+SECURE_REDIRECT_EXEMPT = [
+    '^\.well-known/acme-challenge/[0-9a-zA-Z_-]+$',
+]
 
 ROOT_URLCONF = 'redirect.urls'
 
